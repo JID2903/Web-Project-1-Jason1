@@ -3,26 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
+    <title>Sales Report</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <style>
+        ul {
+            list-style: none;  /* Remove default bullet points */
+            padding: 0;  /* Remove default padding */
+        }
+
+        li {
+            display: inline-block;  /* Make list items display inline */
+            margin-right: 20px;  /* Add space between list items */
+        }
+    </style>
+    <style>
+        body {
+          font-family: 'Verdana', sans-serif;
+        }
+      </style>
+</head>
 </head>
 <body>
-    <p><h1>Sales Over the last year</h1></p>
-        <table>
-            <tr>
-                <th>January-March</th>
-                <th>April-June</th>
-                <th>July-September</th>
-                <th>October-December</th>
-                <th>Total</th>
-            </tr>
-            <tr>
-                <td>175 Million</td>
-                <td></td>
-                <td>200 Million</td>
-                <td>175 Million</td>
-                <td>350 Million</td>
-                <td>250 Million</td>
-            </tr>
-        </table>
+    <nav>
+        <ul style="list-style: none;">
+        <li><a href="index.html"><h1>Home</h1></a></li>
+        <li><a href="Shop.html"><h1>Shop</h1></a></li>
+        <li><a href="AboutMe.html"><h1>About</h1></a></li>
+        </ul>
+    <h1>Sales Over the Last Year</h1>
+    <table>
+        <tr>
+            <th>January-March</th>
+            <th>April-June</th>
+            <th>July-September</th>
+            <th>October-December</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>175 Million</td>
+            <td>250 Million</td>
+            <td>300 Million</td>
+            <td>250 Million</td>
+            <td>975 Million</td>
+        </tr>
+    </table>
 </body>
 </html>
