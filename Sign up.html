@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In / Sign Up</title>
+    <!-- Internal CSS for styling the page -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -44,6 +45,7 @@
             background-color: #0056b3;
         }
     </style>
+    <!-- Additional CSS to change the background color -->
     <style>
         body {
             background-color: #BFEFFF; /* Baby blue color */
@@ -51,20 +53,27 @@
     </style>
 </head>
 <body>
-        <h2>Sign Up</h2></br>
-        <form action="/signup" method="post">
+    <!-- Container for the form -->
+    <div class="container">
+        <h2>Sign Up</h2>
+        <!-- Form for user sign up -->
+        <form action="index.html" method="post">
+            <!-- Form group for username input -->
             <div class="form-group">
                 <label for="signup-username">Username:</label>
                 <input type="text" id="signup-username" name="username" required>
             </div>
+            <!-- Form group for email input -->
             <div class="form-group">
                 <label for="signup-email">Email:</label>
                 <input type="email" id="signup-email" name="email" required>
             </div>
+            <!-- Form group for password input -->
             <div class="form-group">
                 <label for="signup-password">Password:</label>
                 <input type="password" id="signup-password" name="password" required>
             </div>
+            <!-- Form group for submit button -->
             <div class="form-group">
                 <button type="submit">Sign Up</button>
             </div>
